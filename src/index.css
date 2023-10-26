@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat';
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p {
+  font-weight: normal;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.flex-container {
+
+    display: flex;
+
+    justify-content: space-around;
+
+
+}
+
+.flex-container {
+
+    display: flex;
+
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+
+  }
+
+.flex-container > div{
+    background: floralwhite;
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+    min-width: 200px;
+}
+
+
+
+.centeredNav {
+    align-items: center;
+    align-content: center;
+}
+
+
+
+.flex-item {
+    width: 500px;
+    max-height: 700px;
+    box-shadow: 5px 17px 50px 0px rgba(0, 0, 0, 0.5)
+
+}
+
+
+.flex-container-edu {
+    border-radius: 15px;
+    box-shadow: 15px 3px 50px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    margin-bottom: 30px;
+
+    justify-content: space-evenly;
+    align-items: flex-end;
+    /* flex-flow: row wrap; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+
+    background-color: #bbdefb;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+
+  }
+
+
+
+  .flex-container-edu > div{
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+  }
